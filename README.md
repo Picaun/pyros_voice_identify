@@ -15,7 +15,7 @@
 `cd your_path_to_ROS_workspace/src/`  
 `catkin_create_pkg your_package_name std_msgs rospy roscpp`  
 `git clone https://github.com/Picaun/pyros_voice_identify.git`  
-`gedit pyros_voice_identify/scripts/main_node.py`(修改你的科大讯飞APPID，APIKey，APISecret)
+`gedit pyros_voice_identify/scripts/main_node.py`(修改你的科大讯飞APPID，APIKey，APISecret)  
 `cd pyros_voice_identify`  
 `mv scripts your_path_to_ROS_workspace/src/your_package_name/`  
 `cd your_path_to_ROS_workspace`  
