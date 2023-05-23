@@ -18,7 +18,7 @@ git clone https://github.com/Picaun/pyros_voice_identify.git
 cd pyros_voice_identify  
 mv scripts your_path_to_ROS_workspace/src/your_package_name/  
 cd your_path_to_ROS_workspace  
-catkin_make 
+catkin_make  
 终端二：  
 roscore  
 终端三：  
