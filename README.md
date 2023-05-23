@@ -12,22 +12,22 @@
 * reset_node.py用于重置整个进程，使其恢复到待定状态。此时可以通过open_switch_node再次开启语音识别  
 ## 使用步骤 
 终端一：   
-'cd your_path_to_ROS_workspace/src/'  
-'catkin_create_pkg your_package_name std_msgs rospy roscpp'  
-'git clone https://github.com/Picaun/pyros_voice_identify.git'  
-'cd pyros_voice_identify'  
-'mv scripts your_path_to_ROS_workspace/src/your_package_name/'  
-'cd your_path_to_ROS_workspace'  
-'catkin_make'  
+`cd your_path_to_ROS_workspace/src/`  
+`catkin_create_pkg your_package_name std_msgs rospy roscpp`  
+`git clone https://github.com/Picaun/pyros_voice_identify.git`  
+`cd pyros_voice_identify`  
+`mv scripts your_path_to_ROS_workspace/src/your_package_name/`  
+`cd your_path_to_ROS_workspace`  
+`catkin_make`  
 终端二：  
-'roscore'  
+`roscore`  
 终端三：  
-'rosrun your_package_name main_node.py'  
+`rosrun your_package_name main_node.py`  
 终端四：  
-'rosrun your_package_name open_switch_node.py'  
+`rosrun your_package_name open_switch_node.py`  
 终端五：  
-'rosrun your_package_name close_switch_node.py'  
+`rosrun your_package_name close_switch_node.py`  
 终端六：  
-'rosrun your_package_name reset_node.py'  
+`rosrun your_package_name reset_node.py`  
   
 你可以在终端三中查看语音识别情况，使用终端四五来开启与关闭语音识别，使用终端六停止open_switch_node与close_switch_node，然后重新使用终端四五开启与关闭语音识别。
