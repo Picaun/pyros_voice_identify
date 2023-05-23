@@ -1,7 +1,7 @@
 # pyros_voice_identify
 基于ros的语音识别，使用python与科大讯飞语音听写api实现实时的语音识别，并利用话题控制进程。  
 ## 环境要求：  
-* ros noetic，python3.x  
+* ros，python3.x  
 - 声卡：sudo apt install libasound2-dev
 * requirement：  
     *
