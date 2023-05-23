@@ -1,0 +1,2 @@
+# pyros_voice_identify
+基于ros的语音识别，使用python与科大讯飞语音听写api实现事实的语音识别，并利用话题控制进程。
