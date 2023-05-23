@@ -9,7 +9,7 @@
 * main_node.py是主程序，承担语音识别模块。只运行该节点不会直接开始语音识别  
 - open_switch_node.py用于开启主程序语音识别  
 - close_switch_node.py用于关闭主程序语音识别  
-* reset_node.py用于重置整个进程，使其恢复到待定状态。此时可以通过open_switch_node再次开启语音识别  
+* reset_node.py用于重置整个进程，使其恢复到休眠状态。此时可以通过open_switch_node再次开启语音识别  
 ## 使用步骤 
 终端一：   
 `cd your_path_to_ROS_workspace/src/`  
