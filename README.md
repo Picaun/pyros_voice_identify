@@ -32,4 +32,4 @@
 `rosrun your_package_name reset_node.py`  
   
 你可以在终端三中查看语音识别情况，使用终端四五来开启与关闭语音识别，使用终端六停止open_switch_node与close_switch_node，然后重新使用终端四五开启与关闭语音识别。  
-直接终止open_switch_node或close_switch_node不会关闭语音识别
+***直接终止open_switch_node或close_switch_node不会关闭语音识别***
