@@ -180,7 +180,7 @@ def on_open(ws):
 
 
 def run():
-    global wsParam, flag
+    global wsParam
     # 讯飞接口编码
     wsParam = Ws_Param ( APPID='',
                          APIKey='',
