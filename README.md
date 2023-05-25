@@ -1,12 +1,13 @@
 # pyros_voice_identify
 基于ros的语音识别，使用python与科大讯飞语音听写api实现实时的语音识别，并利用节点发布话题控制进程。  
-最新版本代码在：[https://github.com/Picaun/xf_pyros_iat](https://github.com/Picaun/xf_pyros_iat "Picaun/xf_pyros_iat")  
+最新代码在：[https://github.com/Picaun/xf_pyros_iat](https://github.com/Picaun/xf_pyros_iat "Picaun/xf_pyros_iat")  
 ## 环境要求：  
 * ros，python3.x  
 - 声卡：sudo apt install libasound2-dev
 * requirement：  
     * pass
 ## 节点说明：  
+![节点图](https://github.com/Picaun/xf_pyros_iat/blob/main/others/node_main.png "节点图")
 * main_node.py是主程序，承担语音识别模块。只运行该节点不会直接开始语音识别  
 * open_switch_node.py用于开启主程序语音识别  
 * close_switch_node.py用于关闭主程序语音识别  
