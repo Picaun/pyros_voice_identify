@@ -17,7 +17,7 @@
 ```
 cd <your_path_to_ROS_workspace>/src/
 ```
-创建功能包：  
+* 创建功能包：  
 ```
 catkin_create_pkg <your_package_name> std_msgs rospy roscpp
 ```
